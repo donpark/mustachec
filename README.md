@@ -18,7 +18,7 @@ Tests TBD
 
     mustachec main.html
 
-compiles each Mustache template within `main.html` like below
+compiles each Mustache template within `main.html` like below (expressed as Jade template)
 
     script#dialog-template(type='text/x-mustache-template')
       .modal.hide
