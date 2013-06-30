@@ -1,6 +1,6 @@
 {
   "name": "mustachec",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Compiles Mustache templates in HTML to javascript",
   "keywords": [
     "mustache",
@@ -10,6 +10,14 @@
   ],
   "author": "Don Park <donpark@docuverse.com>",
   "license": "MIT",
+  "homepage": "https://github.com/donpark/mustachec",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donpark/mustachec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/donpark/mustachec/issues"
+  },
   "main": "lib/mustachec.js",
   "scripts": {
     "prepublish": "coffee -c lib"
