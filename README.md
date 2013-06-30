@@ -45,6 +45,8 @@ in the same directory:
 
     var context = { title: "foobar" };
     var renderedHtml = window.compiledTemplates["dialog-template"].render(context)
+    
+*Generated code currently expects [Hogan.js 2.0](http://twitter.github.io/hogan.js/) to be loaded.*
 
 ### Options
 
