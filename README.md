@@ -1,5 +1,9 @@
 Compiles Mustache templates in HTML to javascript.
 
+Compiled templates don't use `eval` nor `Function` so they can
+be used from restricted environments such as Chrome extension
+apps.
+
 ## Status
 
 Tests TBD
