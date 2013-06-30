@@ -6,7 +6,7 @@ apps.
 
 ## Status
 
-Tests TBD
+Stable and being used in commercial development.
 
 ## Install
 
