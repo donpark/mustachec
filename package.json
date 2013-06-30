@@ -1,6 +1,6 @@
 {
   "name": "mustachec",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Compiles Mustache templates in HTML to javascript",
   "keywords": [
     "mustache",
