@@ -1,0 +1,26 @@
+{
+  "name": "mustachec",
+  "version": "0.1.0",
+  "description": "Compiles Mustache templates in HTML to javascript",
+  "keywords": [
+    "mustache",
+    "template",
+    "compiler",
+    "javascript"
+  ],
+  "author": "Don Park <donpark@docuverse.com>",
+  "license": "MIT",
+  "main": "lib/mustachec.js",
+  "scripts": {
+    "prepublish": "coffee -c lib"
+  },
+  "bin": {
+    "mustachec": "cli-bin.js"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "commander": "*",
+    "hogan.js": "~2.0.0"
+  },
+  "devDependencies": {}
+}
