@@ -1,6 +1,6 @@
 {
   "name": "mustachec",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Compiles Mustache templates in HTML to javascript",
   "keywords": [
     "mustache",
@@ -26,7 +26,7 @@
     "mustachec": "cli-bin.js"
   },
   "dependencies": {
-    "cheerio": "*",
+    "cheerio": "~0.10.0",
     "commander": "*",
     "hogan.js": "~2.0.0"
   },

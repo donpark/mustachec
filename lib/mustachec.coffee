@@ -16,7 +16,8 @@ exports.compile = (args, options = {}) ->
 
     templates = {}
     $templates.each (element) ->
-      templates[@attr("id")] = Hogan.compile @text(), asString: true
+      $element = $(element)
+      templates[$element.attr("id")] = Hogan.compile $element.text(), asString: true
 
     js = []
     js.push "#{options.assign} = {}"
