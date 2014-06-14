@@ -15,7 +15,7 @@ exports.compile = (args, options = {}) ->
     $templates = $(options.selector)
 
     templates = {}
-    $templates.each (element) ->
+    $templates.each (index, element) ->
       $element = $(element)
       templates[$element.attr("id")] = Hogan.compile $element.text(), asString: true
 
